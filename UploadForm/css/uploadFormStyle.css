@@ -1,0 +1,228 @@
+﻿.input-prepend, .fileUploadLine, .sendButton {
+	display: block;
+}
+
+.captcha {
+	width: 100px;
+	height: 60px;
+	float: left;
+}
+
+.fileUploadButton {
+	float: left;
+}
+
+.deleteFileButton{
+	float: right;
+}
+
+.fileUploadLine{
+	height: 30px;
+}
+
+#captcha {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.sendButton {
+	clear: both;
+	margin-top: 10px;
+}
+
+.uploadForm {
+	width: 600px;
+	margin: auto;
+	padding: 20px;
+	background-color: #F3F3F3;
+}
+
+.fields {
+	float: left;
+}
+
+.otherFields {
+	float: none;
+	clear: both;
+}
+
+.description {
+	margin-top: 15px;
+	width: 400px;
+	float: right;
+}
+
+#comment {
+	margin: 0px 0px 10px;
+	width: 580px;
+	height: 400px;
+}
+
+#circular3dG {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+
+.circular3dG {
+	position: absolute;
+	background-color: #FF6200;
+	width: 14px;
+	height: 14px;
+	-moz-border-radius: 15px;
+	-moz-animation-name: bounce_circular3dG;
+	-moz-animation-duration: 1.1199999999999999s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: linear;
+	-webkit-border-radius: 15px;
+	-webkit-animation-name: bounce_circular3dG;
+	-webkit-animation-duration: 1.1199999999999999s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: linear;
+	-ms-border-radius: 15px;
+	-ms-animation-name: bounce_circular3dG;
+	-ms-animation-duration: 1.1199999999999999s;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-direction: linear;
+	-o-border-radius: 15px;
+	-o-animation-name: bounce_circular3dG;
+	-o-animation-duration: 1.1199999999999999s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction: linear;
+	border-radius: 15px;
+	animation-name: bounce_circular3dG;
+	animation-duration: 1.1199999999999999s;
+	animation-iteration-count: infinite;
+	animation-direction: linear;	
+}
+
+#circular3d_1G {
+	left: 20px;
+	top: 3px;
+	-moz-animation-delay: 0.41999999999999993s;
+	-webkit-animation-delay: 0.41999999999999993s;
+	-ms-animation-delay: 0.41999999999999993s;
+	-o-animation-delay: 0.41999999999999993s;
+	animation-delay: 0.41999999999999993s;
+}
+
+#circular3d_2G {
+	left: 30px;
+	top: 12px;
+	-moz-animation-delay: 0.5599999999999999s;
+	-webkit-animation-delay: 0.5599999999999999s;
+	-ms-animation-delay: 0.5599999999999999s;
+	-o-animation-delay: 0.5599999999999999s;
+	animation-delay: 0.5599999999999999s;
+}
+
+#circular3d_3G {
+	left: 37px;
+	top: 23px;
+	-moz-animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
+	-ms-animation-delay: 0.7s;
+	-o-animation-delay: 0.7s;
+	animation-delay: 0.7s;
+}
+
+#circular3d_4G {
+	left: 34px;
+	top: 34px;
+	-moz-animation-delay: 0.8399999999999999s;
+	-webkit-animation-delay: 0.8399999999999999s;
+	-ms-animation-delay: 0.8399999999999999s;
+	-o-animation-delay: 0.8399999999999999s;
+	animation-delay: 0.8399999999999999s;
+}
+
+#circular3d_5G {
+	left: 21px;
+	top: 37px;
+	-moz-animation-delay: 0.9799999999999999s;
+	-webkit-animation-delay: 0.9799999999999999s;
+	-ms-animation-delay: 0.9799999999999999s;
+	-o-animation-delay: 0.9799999999999999s;
+	animation-delay: 0.9799999999999999s;
+}
+
+#circular3d_6G {
+	left: 4px;
+	top: 24px;
+	-moz-animation-delay: 1.1199999999999999s;
+	-webkit-animation-delay: 1.1199999999999999s;
+	-ms-animation-delay: 1.1199999999999999s;
+	-o-animation-delay: 1.1199999999999999s;
+	animation-delay: 1.1199999999999999s;
+}
+
+#circular3d_7G {
+	left: 0px;
+	top: 7px;
+	-moz-animation-delay: 1.26s;
+	-webkit-animation-delay: 1.26s;
+	-ms-animation-delay: 1.26s;
+	-o-animation-delay: 1.26s;
+	animation-delay: 1.26s;
+}
+
+#circular3d_8G {
+	left: 9px;
+	top: 0px;
+	-moz-animation-delay: 1.4s;
+	-webkit-animation-delay: 1.4s;
+	-ms-animation-delay: 1.4s;
+	-o-animation-delay: 1.4s;
+	animation-delay: 1.4s;
+}
+
+@-moz-keyframes bounce_circular3dG {
+	0% {
+		-moz-transform: scale(1);
+	}
+
+	100% {
+		-moz-transform: scale(.3);
+	}
+}
+
+@-webkit-keyframes bounce_circular3dG {
+	0% {
+		-webkit-transform: scale(1);
+	}
+
+	100% {
+		-webkit-transform: scale(.3);
+	}
+}
+
+@-ms-keyframes bounce_circular3dG {
+	0% {
+		-ms-transform: scale(1);
+	}
+
+	100% {
+		-ms-transform: scale(.3);
+	}
+}
+
+@-o-keyframes bounce_circular3dG {
+	0% {
+		-o-transform: scale(1);
+	}
+
+	100% {
+		-o-transform: scale(.3);
+	}
+}
+
+@keyframes bounce_circular3dG {
+	0% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(.3);
+	}
+}

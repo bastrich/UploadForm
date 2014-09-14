@@ -1,0 +1,378 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html, body {height:100%;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	top: auto;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+}
+.clear {clear:both;
+height:0;
+}
+.empty {height:97px;
+}
+#rainbow {background:url(img/rainbow.png) no-repeat;
+height:386px;
+width:423px;
+position:absolute;
+z-index:1;
+bottom:97px;
+right:0;
+}
+#page {width:1000px;
+margin:0 auto;
+min-height:100%;
+position:relative;
+}
+#verh_pravo {background:url(img/verh_pravo.png) no-repeat right top;
+}
+#niz_levo {background:url(img/niz_levo.png) left bottom no-repeat;
+}
+#content_wrapper {min-height:386px;
+padding:16px 0 0 0;
+}
+#menu_wrapper {margin-bottom:22px;
+z-index:2;
+position:relative;
+}
+#on-line {margin-bottom:22px;
+z-index:2;
+position:relative;
+}
+#oplata_wrapper {margin-bottom:22px;
+z-index:2;
+position:relative;
+}
+#dostavka_wrapper {margin-bottom:22px;
+z-index:2;
+position:relative;
+}
+#contakt {margin-bottom:22px;
+z-index:2;
+position:relative;
+}
+#new_wrapper {margin-bottom:22px;
+z-index:2;
+position:relative;
+}
+#tags_wrapper {margin-bottom:22px;
+z-index:2;
+position:relative;
+}
+.leftbar_top {height:25px;
+width:160px;
+background:url(img/leftbar_top.png) no-repeat;
+}
+.leftbar_bot {
+	height:18px;
+	width:165px;
+	background:url(img/leftbar_bot.png) no-repeat;
+	position:absolute;
+	bottom:0px;
+}
+.rightbar_top {
+	height: 25px;
+	width: 160px;
+	background: url(img/rightbar_top.png) no-repeat;
+	margin-left: 4px;
+}
+.rightbar_bot {
+	height:18px;
+	width:165px;
+	background:url(img/rightbar_bot.png) no-repeat;
+	position:absolute;
+	bottom:0px;
+}
+
+/* --------- ШАПКА --------- */
+#header {height:93px;
+background:url(img/header.png) no-repeat;
+}
+	#logo {height:68px;
+	width:138px;
+	float:left;
+	margin:12px 0 0 11px;
+	}
+		#logo a {display:block;
+		width:138px;
+		height:68px;
+		}
+	
+/* ---------- ЛЕВЫЙ БЛОК ---------- */
+#leftbar {float:left;
+width:165px;
+min-height:20px;
+}
+	/* --------- МЕНЮ ---------- */
+	#menu {min-height:20px;
+	width:160px;
+	background:#f4f4f4;
+	padding:0 0 20px 0;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+		#menu ul {margin:0;
+		padding:0 0 10px 0;
+		}
+		#menu ul li {list-style:none;
+		min-height:26px;
+		position:relative;
+		}
+		#menu ul li a {text-decoration:none;
+		color:#000;
+		display:block;
+		padding:5px 12px;
+		border-bottom:1px #d2d2d2 solid;
+		}
+  		#menu ul li a:hover {color:#FF780E;
+		}
+		#menu ul li a.act {color:#FF780E;
+		cursor:default;
+		}
+	
+	/* --------- on-line --------- */
+	#on-line {min-height:20px;
+	width:140px;
+	background:#f4f4f4;
+	padding:10px 10px 20px 10px;
+	position:relative;
+	text-align:center;
+	}
+	#on-line img {margin:5px 0;
+	}
+	/* --------- OPLATA --------- */
+	#oplata {min-height:20px;
+	width:140px;
+	background:#f4f4f4;
+	padding:10px 10px 20px 10px;
+	position:relative;
+	text-align:center;
+	}
+	#oplata img {margin:5px 0;
+	}
+	/* --------- DOSTAVKA --------- */
+	#dostavka {min-height:20px;
+	width:140px;
+	background:#f4f4f4;
+	padding:10px 10px 20px 10px;
+	position:relative;
+	text-align:center;
+	}
+	#dostavka img {margin:5px 0;
+	}
+/* ---------- ПРАВЫЙ БЛОК ----------- */
+#rightbar {float:right;
+width:165px;
+min-height:20px;
+}
+/* --------- contakt --------- */
+	#contakt {min-height:20px;
+	margin-left:4px;
+	width:140px;
+	background:#f4f4f4;
+	padding:10px 10px 20px 10px;
+	position:relative;
+	text-align:center;
+	}
+	#contakt img {margin:5px 0;
+	}
+/* --------- NEW --------- */
+	#new {min-height:20px;
+	margin-left:4px;
+	width:140px;
+	background:#f4f4f4;
+	padding:10px 10px 20px 10px;
+	position:relative;
+	text-align:center;
+	}
+	#new img {margin:5px 0;
+	}
+	/* ---------- ТЕГИ ---------- */
+	#tags  {min-height:20px;
+	margin-left:4px;
+	width:140px;
+	background:#f4f4f4;
+	padding:10px 10px 20px 10px;
+	position:relative;
+	text-align:center;
+	}
+	#tags {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 4px;
+	}
+	
+#search {
+	float: center;
+	width: 900px;
+	min-height: 1200px;
+	padding: 0 30px 30px 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	}
+/* ---------- КОНТЕНТ ----------- */
+#content {
+	float: center;
+	width: 610px;
+	min-height: 20px;
+	padding: 0 30px 30px 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-left: 165px;
+}
+#content h1 {font-size:27px;
+color:#009ee0;
+margin:0px;
+}
+#content h2 {font-size: 20px;
+	color:#009ee0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#content p {margin-top:0;
+}
+	#content .emptd {width:50px;
+	background:#FF780E;
+	}
+	#content ul {list-style-type:square;
+	}
+	table.dizain td {border-right:#FFA94F 1px solid;
+	border-bottom:#FFA94F 1px solid;
+	text-align:center;
+	height:30px;
+	}
+	table.dizain tr {background:#F4F4F4;
+	}
+	table.dizain tr:hover {background:#B4DEEC;
+	}
+    #content table.dizain .tr1:hover {background:#F4F4F4;
+    }
+	.td1_bot {border-bottom:none !important;
+	}
+	.td1 {
+	}
+	table.dizain tr:hover .td1, .td1_bot {background:#F4F4F4;
+	}
+	table.dizain td:first-child {text-align:left;
+	padding-left:10px;
+	}
+	table.dizain td:last-child {border-right:none;
+    }
+	.bottom_td {border-bottom:none !important;
+	}
+
+#uploadFile {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #808080;
+    display: block;
+    margin: 10px auto 0;
+    padding: 5px;
+    width: 90%;
+}
+.fileUpload, .submitFile {
+    background: none repeat scroll 0 0 #FF7C0F;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 10px auto;
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative;
+    width: 100px;
+}
+input.upload {
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+	
+/* ---------- ФУТЕР ----------- */
+#footer {min-height:57px;
+background:#ff770c url(img/footer.png) repeat-x;
+padding:10px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+position:relative;
+width:980px;
+margin:-5px auto 0 auto;
+}
+	#text {
+	}
+	#banners {
+	min-height:31px; /* --- счетчики и прочее */
+	width:760px;
+	position:absolute;
+	bottom:17px;
+	left:25px;
+	text-align:left;
+	}
+	#footer p {margin:7px 35px 10px;
+	}
+	#footer a {text-decoration:none;
+	color:#000;
+	}
+	#footer a:hover {text-decoration:underline;
+	}
+	#copy {width:200px;    
+	min-height:20px;
+	position:absolute;
+	bottom:8px;
+	right:-5px;
+	}
+
+/*--------------------- ПРОПИСАННЫЕ ТОБОЙ СТИЛИ -----------------------*/
+.style1 {font-family: Arial, Helvetica, sans-serif}
+.style5 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.style6 {
+	font-size: 23px;
+	font-weight: bold;
+	text-decoration: blink;
+	color: #FF6600;
+}
+.style66 {
+	font-size: 23px;
+	font-weight: bold;
+	color: #FF6600;
+}
+.style40 {font-size: 9px}
+.style41 {font-size: 14px; font-weight: bold; }
+.style43 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.style44 {color: #000000}
+.style52 {color: #FFFFFF;
+font-size: 18px
+}
+.style53 {color: #FF7C0F}
+.style68 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: blink;
+}
+.style78 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: overline;
+}
+
+
+/*--------------------- кончились ПРОПИСАННЫЕ ТОБОЙ СТИЛИ -----------------------*/
