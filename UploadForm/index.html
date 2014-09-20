@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Форма для отправки данных</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/uploadFormStyle.css" />
+    <script src="scripts/jquery.form.min.js"></script>
+    <script src="scripts/jquery.blockUI.js"></script>
+    <script src="scripts/jquery.maskedinput.min.js"></script>
+    <script src="scripts/formScript.js"></script>
+</head>
+<body>
+    <form enctype="multipart/form-data" class="uploadForm" action="upload.php" method="post">
+        <div class="fields">
+            <div class="input-prepend">
+                <span class="add-on"><i class="icon-user"></i></span>
+                <input class="input-medium focused" name="name" id="name" type="text" placeholder="Ваше имя" />
+            </div>
+            <div class="input-prepend">
+                <span class="add-on"><i class="icon-book"></i></span>
+                <input class="input-medium focused" name="phone" id="phone" type="text" placeholder="Ваш телефон" />
+            </div>
+            <div class="input-prepend">
+                <span class="add-on"><i class="icon-envelope"></i></span>
+                <input class="input-medium focused" name="email" id="email" type="text" placeholder="Ваш E-mail" />
+            </div>
+        </div>
+        <p class="description">Допустимые типы: pdf, jpg, tiff, bmp, gif, png, dwg, doc(docx), xls(xlsx), ppt(pptx), rtf, odt, odw, cdr, psd, ZIP, RAR<br /> Макс. размер одного файла: 100 Мб.<br /> Макс. размер отправляемых за один раз файлов 100 Мб.</p>
+        <div class="otherFields">
+            <textarea class="input-lage focused" name="comment" id="comment" placeholder="Комментарий к заказу"></textarea>
+            <div class="files">
+                <div class="fileUploadLine" id="fileUploadLine1"><input class="fileUploadButton" type="file" name="uploadedFile1" id="uploadedFile1" /></div>
+            </div>
+            <input type="hidden" id="captchaHash" name="captchaHash" />
+            <div class="captcha"></div>
+            <input type="text" id="captcha" name="captcha" />
+            <input class="sendButton" type="image" src="img/button.png" alt="Отправить" />
+        </div>
+    </form>
+</body>
+</html>
